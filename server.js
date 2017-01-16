@@ -6,6 +6,9 @@ const app = express();
 
 const blogRouter = require('./blogRouter');
 
+// log the http layer
+app.use(morgan('common'));
+
 
 // when requests come into `/shopping-list` or
 // `/recipes`, we'll route them to the express
