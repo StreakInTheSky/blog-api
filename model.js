@@ -1,4 +1,4 @@
-onst uuid = require('uuid');
+const uuid = require('uuid');
 
 // this module provides volatile storage, using a `BlogPost`
 // model. We haven't learned about databases yet, so for now
