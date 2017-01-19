@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: TjbwA+e+mtz1n4m9MstbZARgUsKQXk2wmrZWlYEDeermxqM1r+byTyUN4YK4bewEnU3Uo1l4iUObEN92JxZPUz3/rEY1y2qtMbdnf5f3XLkvt0ICMnRINUeZsNKXSQxPNh6QHs3nBp08IJtZ62ZM1Emky0H1u/R5BfqauJ5bEJI6ycmBKgxJUz0OMuxoCBUIR+pLLpWSHU/A6XEduk25w2513kxmJEIy9h0SyDj3lMqKiA0mluTNdQgIofCBJVjNKGTINyN2RE22LW1BV8ruCwBRUc7zgkhV3i0dxrnMbLPky0xlT+HVdxc1jFqpESpnLgIJvvgs0aV1n3pwM9B34uxLc1cMA28TSfs++TDGt+ECkplWIBJ4ZTvgHDFl3vJ7+KqkrDaD1WXl+uZOfso5+T4iiHk8s4dthM9UInpri05n4RHuVfLDkrmpp4saAmoaF/B28yL3toJxETs2mjtJiwneLB1NgdlRzl3q3oe61es6U2B/rfX/cpbis/+AMWDrPMKZvJP94jS8PWxPOGZwT7uoWUs6BVc50O5zCsM5tpB2oTVfb0NTIQjLNO2rouPff6VpMjnLO+SUckBSqjLIkJVttxJ7rpdicwDNPMVwH6W+775E0Ny7yLOQvOKxX7PB25ZkAdX0xjjqy1SS10QdxMYDgAcHCDKo3yvTDi76bzU=
+  app: agile-depths-39139
+  on:
+    repo: StreakInTheSky/blog-api
