@@ -60,7 +60,6 @@ router.put('/', jsonParser, (req, res) => {
   });
 
   console.log(`Updating blog post ${req.body.id}`);
-  // const updatedPost = BlogPosts.update(req.body)
   res.status(200).json( BlogPosts.update(req.body));
 });
 
